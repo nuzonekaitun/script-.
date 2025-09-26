@@ -1,0 +1,6 @@
+repeat wait() until game:IsLoaded();
+
+if (game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635) then
+    -- Blox Fruit เท่านั้น
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/CreamSoScute/main/LoadNormal.lua", true))()
+end
